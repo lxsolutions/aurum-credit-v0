@@ -1,0 +1,27 @@
+
+{
+  "name": "aurum-credit-v0",
+  "version": "0.1.0",
+  "description": "Gold-unit lending protocol on Ethereum L2",
+  "scripts": {
+    "build": "npm run build:contracts && npm run build:frontend",
+    "build:contracts": "cd contracts && forge build",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "npm run test:contracts && npm run test:frontend",
+    "test:contracts": "cd contracts && forge test",
+    "test:frontend": "cd frontend && npm test",
+    "lint": "npm run lint:contracts && npm run lint:frontend",
+    "lint:contracts": "cd contracts && forge fmt --check",
+    "lint:frontend": "cd frontend && npm run lint",
+    "deploy": "npm run deploy:contracts",
+    "deploy:contracts": "cd contracts && forge script",
+    "dev": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["ethereum", "lending", "defi", "gold", "l2"],
+  "author": "Aurum Credit Team",
+  "license": "MIT"
+}

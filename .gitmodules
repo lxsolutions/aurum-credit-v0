@@ -1,0 +1,6 @@
+[submodule "aurum-credit-v0/contracts/lib/forge-std"]
+	path = aurum-credit-v0/contracts/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "aurum-credit-v0/contracts/lib/openzeppelin-contracts"]
+	path = aurum-credit-v0/contracts/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
